@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/*  Exclemation mark  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
+
+/* extra small */
+.font-xsl {
+    font-size: 0.6rem;
+}
+
+/* Font small */
+.font-sl {
+    font-size: 1.2rem;
+}
+
+.font-m {
+    font-size: 1.5rem;
+}
+
+.font-l {
+    font-size: 1.8rem;
+}
+
+.font-xl {
+    font-size: 2.5rem;
+}
+
+.font-xxl {
+    font-size: 4rem;
+}
+
+.bold {
+    font-weight: bold;
+}
