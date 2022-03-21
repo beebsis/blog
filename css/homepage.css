@@ -12,12 +12,9 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #C4D2D6;
+    background-color: var(--background);
     transition: all ease-in-out 0.2s;
-}
-
-.darkmode {
-    background: #2A2D2E;
+    font-family: 'Varela Round', sans-serif;
 }
 
 /*Top*/
@@ -25,7 +22,6 @@ body {
     display: flex;
     flex-flow: row;
     height: 75px;
-    border: 1px solid red;
     padding: 15px;
 }
 
@@ -114,7 +110,6 @@ body {
     width: 100%;
     align-items: center;
     display: flex;
-    border: 1px solid red;
 }
 
 .icon-head {
@@ -133,9 +128,8 @@ body {
 .color-theme i:hover {
     cursor: pointer;
     transform: rotate(20deg, 2s);
-    transition: all ease-in-out 0.2s;
-    transform: rotate(90deg);
-    color: lightblue;
+    transition: all ease-in-out 0.7s;
+    color: rgb(238, 172, 73);
 }
 
 .color-theme i:focus {
@@ -148,6 +142,14 @@ body {
 .color-theme button {
     background: none;
     border: none;
+    height: 72px;
+    width: 72px;
+    border-radius: 36px;
+    transition: all ease-in-out 0.2s;
+}
+
+.color-theme button:hover {
+    background: #222831;
 }
 
 
@@ -155,3 +157,114 @@ body {
 main {
 
 }*/
+
+.socials {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    height: 268px;
+    width: 40px;
+}
+
+.socials button {
+    width: 40px;
+    height: 40px;
+    margin: 4.5px 0 4.5px 0;
+    background-color: var(--btn-bg);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: none;
+    transition: all ease-in-out 0.1s;
+}
+
+.socials button:hover {
+    border: 2px solid var(--link-btns);
+    transform: rotate(15deg);
+}
+
+.socials button i {
+    color: var(--link-btns)
+}
+
+/* Content container */
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1350px;
+    max-height: 900px;
+    border: 1px solid red;
+}
+
+
+/* Bio */
+.bio-container {
+    max-width: 675px;
+    max-height: 775px;
+    border: 1px solid red;
+}
+
+.bio-wrapper {
+    color: var(--font-color);
+    max-width: 390px;
+    margin-top: 64px;
+}
+
+.bio-profile img {
+    max-height:252px;
+    max-width:252px;
+    border-radius: 50%;
+}
+
+.bio-info h3 {
+    font-size: 32px;
+}
+
+.bio-info p {
+    font-size: 22px;
+}
+
+/* Blogs Area */
+.blogs {
+
+}
+
+.blogs .button-container {
+    color: var(--font-color);
+    border: 1px solid red;
+    width: 60px;
+    height: 330px;
+}
+
+.blogs .button-container button {
+    width: 40px;
+    height: 40px;
+    margin: 4.5px 0 4.5px 0;
+    background-color: var(--btn-bg);
+    border-radius: 5px;
+    border: 2px solid transparent;
+    outline: none;
+    transition: all ease-in-out 0.1s;
+    font-size: 26px;
+    color: var(--link-btns);
+}
+
+.blogs .button-container button:hover {
+    border: 2px solid var(--link-btns);
+    transform: rotate(15deg);
+}
+
+.blogs .button-container h3 {
+    transform: rotate(-90deg);
+    border: 1px solid red;
+}
+
+.blogs .blog-transforms {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs .posts {
+
+}

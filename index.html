@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/utility/colors.css">
     <link rel="stylesheet" href="./css/utility/fonts.css">
     <link rel="stylesheet" href="./css/utility/premade.css">
+    <link rel="stylesheet" href="./css/utility/background.css">
     
     <!--page-->
     <link rel="stylesheet" href="./css/homepage.css">
@@ -20,6 +21,7 @@
     <title>Beebsis' Blog</title>
 </head>
 <body>
+    <div class="background"></div>
     <div class="header">
         <div class="icon-head">
             <div class="icon online">
@@ -30,9 +32,42 @@
             </div>
         </div>
         <div class="color-theme">
-            <button class="theme-switch" onclick="toggleTheme()";><i class="fa-solid fa-sun fa-4x"></i> <!--<i class="fa-solid fa-moon"></i>--></button>
+            <!--On theme switch change to <i class="fa-solid fa-campground"></i> -->
+            <button class="theme-switch";><i class="fa-solid fa-fire fa-4x"></i> <!--<i class="fa-solid fa-moon"></i>--></button>
         </div>
     </div>
-    <div class="main"></div>
+    <div class="main">
+        <div class="socials">
+            <button class="github"><i class=" fab fa-github fa-xl"></i></button>
+            <button class="twitter"><i class="fa-brands fa-twitter fa-xl"></i></button>
+            <button class="discord"><i class="fa-brands fa-discord fa-xl"></i></button>
+            <button class="linkedin"><i class="fa-brands fa-linkedin fa-xl"></i></button>
+            <button class="spotify"><i class="fa-brands fa-spotify fa-xl"></i></button>
+        </div>
+        <div class="container">
+            <div class="bio-container">
+                <div class="bio-wrapper">
+                    <div class="bio-profile">
+                        <img src="./lib/assets/bioPic.jpg" alt="Beebsis Profile">
+                    </div>
+                    <div class="bio-info">
+                        <h3>Hello there, I’m Alex</h3>
+                        <p>As of currently I am studying as a Data-Technician student in Denmark.</p>
+                        <p>I’m mainly a web-developer when it comes to it. I have less expertise within software development however still ready to get thrown into it.</p>
+                        <p>I do <code>UX/UI, html, css, scss, js, php, sql</code> and more. Currently learning <code>reactJS</code> and <code>TypeScript</code> on the side.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="button-container">
+                    <h3>NEWEST</h3>
+                    <button>1</i></button>
+                    <button>2</i></button>
+                    <button>3</i></button>
+                </div>
+                <div class="posts"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
