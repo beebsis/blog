@@ -14,7 +14,7 @@ body {
     overflow: hidden;
     background-color: var(--background);
     transition: all ease-in-out 0.2s;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'jetbrains mono'; 
 }
 
 /*Top*/
@@ -23,6 +23,11 @@ body {
     flex-flow: row;
     height: 75px;
     padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-btns);
 }
 
 /*Discord Icon*/
@@ -206,13 +211,13 @@ main {
 
 /* Bio */
 .bio-container {
-    max-width: 675px;
+    max-width: 450px;
     max-height: 775px;
 }
 
 .bio-wrapper {
     color: var(--font-color);
-    max-width: 390px;
+    max-width: 450px;
     margin-top: 64px;
 }
 
@@ -279,7 +284,6 @@ main {
     margin-top: 4em;
     transform: rotate(-90deg);
     font-size: 2em;
-    font-weight: bold;
 }
 
 .blog-transforms {
