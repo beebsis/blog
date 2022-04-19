@@ -127,13 +127,11 @@ body {
 
 .color-theme i:hover {
     cursor: pointer;
-    transform: rotate(20deg, 2s);
     transition: all ease-in-out 0.7s;
     color: rgb(238, 172, 73);
 }
 
 .color-theme i:focus {
-    transform: rotate(20deg, 2s);
     transition: all ease-in-out 0.2s;
     transform: rotate(90deg);
     color: lightblue;
@@ -179,7 +177,16 @@ main {
 
 .socials button:hover {
     border: 2px solid var(--link-btns);
-    transform: rotate(15deg);
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.socials i {
+    transition: all ease-in-out 0.1s;
+}
+
+.socials button:hover i {
+    transform: rotate(-45deg);
 }
 
 .socials button i {
@@ -193,8 +200,7 @@ main {
     display: flex;
     flex-flow: row wrap;
     max-width: 1350px;
-    max-height: 900px;
-    border: 1px solid red;
+    max-height: 1250px; /* ||||||||||||||||||| */
 }
 
 
@@ -202,7 +208,6 @@ main {
 .bio-container {
     max-width: 675px;
     max-height: 775px;
-    border: 1px solid red;
 }
 
 .bio-wrapper {
@@ -227,17 +232,22 @@ main {
 
 /* Blogs Area */
 .blogs {
-
+    margin: 0 auto;
+    height: inherit;
+    display: flex;
+    gap: 50px;
 }
 
-.blogs .button-container {
+.button-container {
     color: var(--font-color);
-    border: 1px solid red;
-    width: 60px;
-    height: 330px;
+    width: 64px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.blogs .button-container button {
+.button-container button {
     width: 40px;
     height: 40px;
     margin: 4.5px 0 4.5px 0;
@@ -250,21 +260,152 @@ main {
     color: var(--link-btns);
 }
 
-.blogs .button-container button:hover {
+.blog-transforms button:hover {
     border: 2px solid var(--link-btns);
-    transform: rotate(15deg);
+    transform: rotate(45deg);
+    cursor: pointer;
 }
 
-.blogs .button-container h3 {
+.blog-transforms span {
+    transition: all ease-in-out 0.1s;
+    display: inline-block;
+}
+
+.blog-transforms button:hover span {
+    transform: rotate(-45deg);
+}
+
+.button-container h3 {
+    margin-top: 4em;
     transform: rotate(-90deg);
-    border: 1px solid red;
+    font-size: 2em;
+    font-weight: bold;
 }
 
-.blogs .blog-transforms {
+.blog-transforms {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
 }
 
-.blogs .posts {
 
+/* Post container */
+.post-container {
+    height: inherit;
+}
+/* post info*/
+.posts-info {
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-color)
+}
+/* posts */
+
+.posts {
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* blog cards */
+.card {
+    width: 480px;
+    min-height: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    position: relative;
+    color: var(--font-color);
+    border: 2px solid transparent;
+    transition: all ease-in-out .2s;
+}
+
+.top {
+    min-height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top img {
+    border-radius: 5px;
+    width: 480px;
+    height: auto;
+    position: absolute;
+    z-index: -2;
+}
+
+.shade {
+    border-radius: 5px;
+    width: 480px;
+    height: 270px;
+    position: absolute;
+    background: #2a313a73;
+    z-index: -1;
+}
+
+.top-text {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.top-left h3 {
+    font-size: 24px;
+    padding: 0;
+}
+
+.top-right {
+    font-size: 14px;
+}
+
+.date-lang {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    margin-bottom: 15px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    color: var(--font-color);
+}
+
+.sub-title, .stats-links {
+    display: flex;    
+    align-items: center;
+}
+
+.sub-title img {
+    width: 34px;
+    height: 34px;
+    border-radius: 16px;
+}
+
+.sub-title p {
+    padding-left: 10px;
+}
+
+.stats-links span{
+    padding-right: 10px;
+}
+
+.link {
+    color: var(--link-btns);
+    transition: all ease-in-out .2s;
+    border-bottom: 2px dotted transparent;
+}
+
+.link:hover {
+    cursor: pointer;
+    border-bottom: 2px dotted var(--link-btns);
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 2px solid var(--link-btns);
 }

@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="./css/utility/fonts.css">
     <link rel="stylesheet" href="./css/utility/premade.css">
     <link rel="stylesheet" href="./css/utility/background.css">
+    <link rel="stylesheet" href="./css/utility/tags.css">
     
     <!--page-->
     <link rel="stylesheet" href="./css/homepage.css">
 
     <!--JavaScript-->
     <script src="./js/themeChange.js" defer></script>
-    <script src="" defer></script>
+    <script src="./js/expandPost.js" defer></script>
     
     <title>Beebsis' Blog</title>
 </head>
@@ -61,11 +62,103 @@
             <div class="blogs">
                 <div class="button-container">
                     <h3>NEWEST</h3>
-                    <button>1</i></button>
-                    <button>2</i></button>
-                    <button>3</i></button>
+                    <div class="blog-transforms">
+                        <button><span>1</span></button>
+                        <button><span>2</span></button>
+                        <button><span>3</span></button>
+                    </div>
                 </div>
-                <div class="posts"></div>
+                <div class="post-container">
+                    <div class="posts-info">
+                        <div class="post-count">
+                            <p><span id="post-count">21</span> POSTS <code class="link">view</code></p>
+                        </div>
+                        <div class="source-code">
+                           <p class="link">Source Code <i class="fa-brands fa-github"></i></p>
+                        </div>
+                    </div>
+                    <div class="posts">
+
+                        <div class="card" type="button">
+                            <div class="top">
+                                <div class="shade"></div>
+                                <img src="./lib/assets/test-img.webp" alt="">
+                                <div class="top-text">
+                                    <div class="top-left">
+                                        <h3>
+                                            Machine Learning with Neural Network using JavaScript
+                                        </h3>
+                                        <p>- <span>Alexander W. Pedersen</span></p>
+                                    </div>
+                                    <div class="top-right">
+                                        <span>10min</span>
+                                    </div>
+                                </div>
+                                <div class="date-lang">
+                                    <div class="date">
+                                        <span>
+                                            1. March 2022
+                                        </span>
+                                    </div>
+                                    <div class="tags">
+                                        <span class="tag tag-js">JS</span>
+                                        <span class="tag tag-ml">ML</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <div class="sub-title">
+                                    <img class="card-pfp" src="./lib/assets/bioPic.jpg" alt="">
+                                    <p>Object Identification</p>
+                                </div>
+                                <div class="stats-links">
+                                    <span><i class="fa-solid fa-eye"></i>7.4k</span>
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" type="button">
+                            <div class="top">
+                                <div class="shade"></div>
+                                <img src="./lib/assets/test-img.webp" alt="">
+                                <div class="top-text">
+                                    <div class="top-left">
+                                        <h3>
+                                            Machine Learning with Neural Network using JavaScript
+                                        </h3>
+                                        <p>- <span>Alexander W. Pedersen</span></p>
+                                    </div>
+                                    <div class="top-right">
+                                        <span>10min</span>
+                                    </div>
+                                </div>
+                                <div class="date-lang">
+                                    <div class="date">
+                                        <span>
+                                            1. March 2022
+                                        </span>
+                                    </div>
+                                    <div class="tags">
+                                        <span class="tag tag-js">JS</span>
+                                        <span class="tag tag-ml">ML</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <div class="sub-title">
+                                    <img class="card-pfp" src="./lib/assets/bioPic.jpg" alt="">
+                                    <p>Object Identification</p>
+                                </div>
+                                <div class="stats-links">
+                                    <span><i class="fa-solid fa-eye"></i>7.4k</span>
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
