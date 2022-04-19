@@ -1,3 +1,10 @@
+/*
+*   This is work in progress, not planning on touching it for some time
+*
+*
+*
+*/
+
 const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 
 if (currentTheme) {

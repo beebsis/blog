@@ -16,8 +16,13 @@
     <link rel="stylesheet" href="./css/homepage.css">
 
     <!--JavaScript-->
-    <script src="./js/themeChange.js" defer></script>
-    <script src="./js/expandPost.js" defer></script>
+    <!--COOKIE
+        <script src="./js/themeChange.js" defer></script>
+        <script src="./js/expandPost.js" defer></script>
+    -->
+
+    <!--PHP DB CONNECT-->
+    <?php include './lib/php/dbconnect.php'; ?>
     
     <title>Beebsis' Blog</title>
 </head>
