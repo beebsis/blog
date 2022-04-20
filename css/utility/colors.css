@@ -1,0 +1,59 @@
+/*
+CHANGE TO THIS ROOT WHEN DONE TESTING
+:root {
+    --primary: #222831;
+    --secondary: #2b323d;
+    --font-color: #12151B;
+    --background: #C4D2D6;
+    --heading: #EEEEEE;
+    --btn-symb: #86CAE0;
+    --btn-bg: #373F41;
+    --faded: hsla(0, 0%, 0%, 0.5);
+    --bg-lines-1: hsl(193, 100%, 5%);
+    --bg-lines-2: hsla(0, 0%, 0%, 0.05);
+    --link-btns: #EEEEEE; 
+}
+*/
+
+/*TESTING ROOT IN DARKMODE*/
+:root {
+    --primary: #222831;
+    --secondary: #2b323d;
+    --font-color: #FFFFFF;
+    --background: #2A2D2E;
+    --heading: #12151B;
+    --btn-symb: #86CAE0;
+    --btn-bg: #373F41;
+    --faded: #FFFFFF;
+    --bg-lines-1: hsl(193, 100%, 5%);
+    --bg-lines-2: hsla(0, 0%, 0%, 0.05);
+    --link-btns: #86CAE0; 
+}
+
+[data-theme="light"] {
+    --primary: #222831;
+    --secondary: #2b323d;
+    --font-color: #12151B;
+    --background: #C4D2D6;
+    --heading: #EEEEEE;
+    --btn-symb: #86CAE0;
+    --btn-bg: #373F41;
+    --faded: hsla(0, 0%, 0%, 0.5);
+    --bg-lines-1: hsl(193, 100%, 5%);
+    --bg-lines-2: hsla(0, 0%, 0%, 0.05);
+    --link-btns: #EEEEEE; 
+}
+
+[data-theme="dark"] {
+    --primary: #222831;
+    --secondary: #2b323d;
+    --font-color: #FFFFFF;
+    --background: #2A2D2E;
+    --heading: #12151B;
+    --btn-symb: #86CAE0;
+    --btn-bg: #373F41;
+    --faded: #FFFFFF;
+    --bg-lines-1: hsl(193, 100%, 5%);
+    --bg-lines-2: hsla(0, 0%, 0%, 0.05);
+    --link-btns: #86CAE0;
+}

@@ -1,0 +1,32 @@
+.tag {
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.tag-ai {
+    background-color:#32BAE5;
+    color: black;
+}
+
+.tag-js {
+    background-color:#F2EA26;
+    color: black;
+}
+
+.tag-php {
+
+}
+
+.tag-ts {
+
+}
+
+.tag-reactjs {
+
+}
+
+.tag-ml {
+    background-color:#32e55f;
+    color: black;
+}
