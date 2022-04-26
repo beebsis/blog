@@ -4,6 +4,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/bb5aae4646.js" crossorigin="anonymous"></script>
+
+    <!--Twitter Meta Tags for Embeds-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@BeebsiBlogs" />
+    <meta name="twitter:creator" content="@Beebsis" />
+    <meta property="og:url" content="https://xalp03.skp-dp.sde.dk/blog/" />
+    <meta property="og:title" content="Blogsi for Beebsis" />
+    <meta property="og:description" content="I wanted to some place to post my adventure, my small journeys and discoveries" />
+    <meta property="og:image" content="https://xalp03.skp-dp.sde.dk/blog/lib/assets/embed.jpg" />
+
     
     <!--Utility-->
     <link rel="stylesheet" href="./css/utility/colors.css">
@@ -11,6 +21,7 @@
     <link rel="stylesheet" href="./css/utility/premade.css">
     <link rel="stylesheet" href="./css/utility/background.css">
     <link rel="stylesheet" href="./css/utility/tags.css">
+    <link rel="stylesheet" href="./css/utility/nav.css">
     
     <!--page-->
     <link rel="stylesheet" href="./css/homepage.css">
@@ -22,27 +33,20 @@
     -->
 
     <!--PHP DB CONNECT-->
-    <?php include './lib/php/dbconnect.php'; ?>
+    <?php #include './lib/php/dbconnect.php'; ?>
     
     <title>Beebsis' Blog</title>
 </head>
 <body>
     <div class="background"></div>
-    <div class="header">
-        <div class="icon-head">
-            <div class="icon online">
-                <img src="./lib/assets/profile-pic.gif" alt="icon">
-                <div class="indicator">
-                    <div class="status"></div>
-                </div>
-            </div>
-        </div>
-        <div class="color-theme">
-            <!--On theme switch change to <i class="fa-solid fa-campground"></i> -->
-            <button class="theme-switch";><i class="fa-solid fa-fire fa-4x"></i> <!--<i class="fa-solid fa-moon"></i>--></button>
-        </div>
-    </div>
+
+    <header>
+    <?php
+        include './lib/include/nav.php';
+    ?>
+    </header>
     <div class="main">
+
         <div class="socials">
             <button class="github"><i class=" fab fa-github fa-xl"></i></button>
             <button class="twitter"><i class="fa-brands fa-twitter fa-xl"></i></button>
