@@ -13,8 +13,7 @@
     <meta property="og:title" content="Blogsi for Beebsis" />
     <meta property="og:description" content="I wanted to some place to post my adventure, my small journeys and discoveries" />
     <meta property="og:image" content="https://xalp03.skp-dp.sde.dk/blog/lib/assets/embed.jpg" />
-
-    
+    <meta name="twitter:card" content="summary_large_image">
     <!--Utility-->
     <link rel="stylesheet" href="./css/utility/colors.css">
     <link rel="stylesheet" href="./css/utility/fonts.css">
