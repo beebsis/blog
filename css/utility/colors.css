@@ -18,11 +18,12 @@ CHANGE TO THIS ROOT WHEN DONE TESTING
 /*TESTING ROOT IN DARKMODE*/
 :root {
     --primary: #222831;
+    --primary2: hsla(216, 18%, 16%, 0.5);
     --secondary: #2b323d;
     --font-color: #FFFFFF;
     --background: #2A2D2E;
     --heading: #12151B;
-    --btn-symb: #86CAE0;
+    --btn-symb: #86CAE0; 
     --btn-bg: #373F41;
     --faded: #FFFFFF;
     --bg-lines-1: hsl(193, 100%, 5%);

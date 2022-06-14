@@ -1,0 +1,36 @@
+.music-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #653026;
+    text-align: center;
+    max-height: calc(1440px - 320px);
+}
+
+.music-spacer {
+    height: .2rem;
+    background-color: #8d4436;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.music-wrapper > h2 {
+    font-size: 2.5rem;
+    color: var(--font-color);
+}
+
+.music-wrapper > p {
+    font-size:  1.5rem;
+    color: var(--font-color);;
+}
+
+.music {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    gap: 1rem;
+    max-width: 1350px;
+    width: 100%;
+    height: inherit;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+

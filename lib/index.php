@@ -13,12 +13,10 @@
     <link rel="stylesheet" href="./css/utility/premade.css">
     <link rel="stylesheet" href="./css/utility/background.css">
     <link rel="stylesheet" href="./css/utility/tags.css">
+
     <!--page-->
     <link rel="stylesheet" href="./css/homepage.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/socials.css">
-    <link rel="stylesheet" href="./css/blog-posts.css">
-    <link rel="stylesheet" href="./css/music.css">
+
     <!--JavaScript-->
     <!--Spotify use later -  Fix later
         <script src="./js/spotifyEmbed.js"></script>
@@ -40,7 +38,7 @@
     <div class="header">
         <div class="icon-head">
             <div class="icon online">
-                <img loading="lazy" src="./lib/assets/images/profile-pic.gif" alt="icon">
+                <img src="./lib/assets/profile-pic.gif" alt="icon">
                 <div class="indicator">
                     <div class="status"></div>
                 </div>
@@ -55,12 +53,11 @@
     </div>
     <div class="main">
         <div class="socials">
-            <button class="github"><i class="fa-solid fa-house"></i></button>
             <button class="github"><i class=" fab fa-github fa-xl"></i></button>
             <button class="twitter"><i class="fa-brands fa-twitter fa-xl"></i></button>
             <button class="discord"><i class="fa-brands fa-discord fa-xl"></i></button>
             <button class="linkedin"><i class="fa-brands fa-linkedin fa-xl"></i></button>
-            <a id="PlayList-anchor" href="#PlayLists"><button class="spotify"><i class="fa-brands fa-spotify fa-xl"></i></button></a>
+            <button class="spotify"><i class="fa-brands fa-spotify fa-xl"></i></button>
         </div>
         <div class="container">
             <div class="wrapper">
@@ -69,13 +66,13 @@
                         <div class="bio-container">
                             <div class="bio-wrapper">
                                 <div class="bio-profile">
-                                    <img loading="lazy" src="./lib/assets/images/bioPic.jpg" alt="Beebsis Profile">
+                                    <img src="./lib/assets/bioPic.jpg" alt="Beebsis Profile">
                                 </div>
                                 <div class="bio-info">
-                                    <h3 class="font-l">Hello there, I’m Alex</h3>
-                                    <p class="font-sl">As of currently I am studying as a Data-Technician student in Denmark.</p>
-                                    <p class="font-sl">I’m mainly a web-developer when it comes to it. I have less expertise within software development however still ready to get thrown into it.</p>
-                                    <p class="font-sl">I do <code id="knowledge">UX/UI, html, css, scss, js, php, sql</code> and more. Currently learning <code>reactJS</code> and <code>TypeScript</code> on the side.</p>
+                                    <h3>Hello there, I’m Alex</h3>
+                                    <p>As of currently I am studying as a Data-Technician student in Denmark.</p>
+                                    <p>I’m mainly a web-developer when it comes to it. I have less expertise within software development however still ready to get thrown into it.</p>
+                                    <p>I do <code id="knowledge">UX/UI, html, css, scss, js, php, sql</code> and more. Currently learning <code>reactJS</code> and <code>TypeScript</code> on the side.</p>
                                 </div>
                             </div>
                         </div>
@@ -103,11 +100,10 @@
                                     </div>
                                 </div>
                                 <div class="posts">
-
                                     <div class="card" type="button">
                                         <div class="top">
                                             <div class="shade"></div>
-                                            <img loading="lazy" src="./lib/assets/images/test-img.webp" alt="">
+                                            <img src="./lib/assets/test-img.webp" alt="">
                                             <div class="top-text">
                                                 <div class="top-left">
                                                     <h3>
@@ -133,7 +129,7 @@
                                         </div>
                                         <div class="bottom">
                                             <div class="sub-title">
-                                                <img loading="lazy" class="card-pfp" src="./lib/assets/images/bioPic.jpg" alt="">
+                                                <img class="card-pfp" src="./lib/assets/bioPic.jpg" alt="">
                                                 <p>Object Identification</p>
                                             </div>
                                             <div class="stats-links">
@@ -146,7 +142,7 @@
                                     <div class="card" type="button">
                                         <div class="top">
                                             <div class="shade"></div>
-                                            <img loading="lazy" src="./lib/assets/images/test-img.webp" alt="">
+                                            <img src="./lib/assets/test-img.webp" alt="">
                                             <div class="top-text">
                                                 <div class="top-left">
                                                     <h3>
@@ -172,7 +168,7 @@
                                         </div>
                                         <div class="bottom">
                                             <div class="sub-title">
-                                                <img loading="lazy" class="card-pfp" src="./lib/assets/images/bioPic.jpg" alt="">
+                                                <img class="card-pfp" src="./lib/assets/bioPic.jpg" alt="">
                                                 <p>Object Identification</p>
                                             </div>
                                             <div class="stats-links">
@@ -185,36 +181,35 @@
                             </div>
                         </div>
                     </div>
-                    <div class="spacer-1"></div>
                 </div>
                 <div class="music-wrapper">
-                    <h2 id="PlayLists">Playlists</h2>
+                    <h2>Playlists</h2>
                     <div class="music-spacer"></div>
                     <p>Listen along to some of my favourite songs</p>
                     <div class="music">
                         <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                         <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                         </div>
                     </div>
                 </div>
