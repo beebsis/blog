@@ -13,12 +13,24 @@
     <link rel="stylesheet" href="./css/utility/premade.css">
     <link rel="stylesheet" href="./css/utility/background.css">
     <link rel="stylesheet" href="./css/utility/tags.css">
-    <!--page-->
+    <!--Page-->
     <link rel="stylesheet" href="./css/homepage.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/socials.css">
     <link rel="stylesheet" href="./css/blog-posts.css">
     <link rel="stylesheet" href="./css/music.css">
+
+    <!--Twitter cards-->
+    <meta name="description">
+    <meta property="og:url" content="https://xalp03.skp-dp.sde.dk/blog/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Summary with large image">
+    <meta property="og:image" content="https://xalp03.skp-dp.sde.dk/blog/lib/assets/images/embed.jpg">
+    <meta name="keywords">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:widgets:new-embed-design" content="on">
+    <meta name="twitter:widgets:csp" content="on">
+
     <!--JavaScript-->
     <!--Spotify use later -  Fix later
         <script src="./js/spotifyEmbed.js"></script>
@@ -187,34 +199,18 @@
                     </div>
                     <div class="spacer-1"></div>
                 </div>
-                <div class="music-wrapper">
-                    <h2 id="PlayLists">Playlists</h2>
-                    <div class="music-spacer"></div>
-                    <p>Listen along to some of my favourite songs</p>
-                    <div class="music">
-                        <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        </div>
-                        <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        </div>
-                        <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        </div>
-                        <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        </div>
-                        <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        </div>
-                        <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        </div>
-                        <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-                        </div>
-                        <div id="playlist-embed-spotify-groovy">
-                            <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <div class="music-section">
+                    <div class="music-wrapper">
+                        <h2 id="PlayLists">Playlists</h2>
+                        <div class="music-spacer"></div>
+                        <p>Listen along to some of my favourite songs</p>
+                        <div class="music">
+                            <div id="playlist-embed-spotify-groovy">
+                                <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            </div>
+                            <div id="playlist-embed-spotify-groovy">
+                                <iframe loading="lazy" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6sXVIk2Lw3JMxpS9Xa4sMx?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -222,4 +218,5 @@
         </div>
     </div>
 </body>
+
 </html>

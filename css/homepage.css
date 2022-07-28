@@ -104,3 +104,72 @@ main {
     width: 100%;
     z-index: -5
 }
+
+
+@media only screen and (max-width: 768px) {
+
+	body {
+		font-size: 18px;
+	}
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+	body {
+		font-size: 16px;
+	}
+
+
+    .profile-wrapper {
+        height: auto;
+        padding-bottom: 4.25rem;
+    }
+    .profile {
+        max-width: calc(100vw - 2rem);
+        margin: 0 auto;
+    }
+    .bio-info {
+        margin-bottom: 4rem !important;
+    }
+    .bio-container {
+        min-height: 100vh !important;
+    }
+    .button-container {
+        display: none !important;
+    }
+    .blogs {
+        max-width: calc(100vw - 2rem);
+    }
+
+    .post-container {
+        max-width: inherit;
+    }
+    .card {
+        width: calc(100vw - 2rem) !important;
+    }
+    .shade {
+    width: calc(100vw - 2rem) !important;
+    }
+    .top img {
+        width: calc(100vw - 2rem) !important;
+    }
+
+    .stats-links {
+        display: none !important;
+    }
+
+    .music-wrapper {
+        max-width: calc(100vw - 2rem);
+        margin: 0 auto;
+    }
+    .music {
+        display: flex !important;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .music > div {
+        width: calc(100vw - 2rem) !important;
+    }
+}

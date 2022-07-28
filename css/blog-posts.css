@@ -80,7 +80,7 @@
 
 /* blog cards */
 .card {
-    width: 480px;
+    width: calc(35rem - 50px);
     min-height: 320px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -99,7 +99,7 @@
 
 .top img {
     border-radius: 5px 5px 0px 0px;
-    width: 480px;
+    width: calc(35rem - 50px);
     height: auto;
     position: absolute;
     z-index: -2;
@@ -107,7 +107,7 @@
 
 .shade {
     border-radius: 5px 5px 0px 0px;
-    width: 480px;
+    width: calc(35rem - 50px);
     height: 270px;
     position: absolute;
     background: #2a313a73;

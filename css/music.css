@@ -1,4 +1,4 @@
-.music-wrapper {
+.music-section {
     width: 100%;
     height: 100%;
     background-color: #653026;
@@ -24,13 +24,15 @@
 }
 
 .music {
-    display: grid;
-    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    display: flex;
+    justify-content: center;
+    align-content: center;
     gap: 1rem;
     max-width: 1350px;
     width: 100%;
     height: inherit;
     margin: 0 auto;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
